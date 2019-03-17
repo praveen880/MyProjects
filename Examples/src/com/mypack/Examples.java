@@ -1,5 +1,7 @@
 package com.mypack;
 
+import java.util.Scanner;
+
 public class Examples {
 
 
@@ -117,7 +119,16 @@ public class Examples {
 	    	// PRINTING  GIVEN NUMBER IS  +VE (OR) -VE 
 	    	
 	    	
-	    /*	int num1=-8979879, num2=867968;
+	    	int num1, num2;
+		
+	     
+	    	Scanner sc=new Scanner(System.in);
+	    	System.out.println("ENTER NUM1 VALUE");
+	    	num1=sc.nextInt();
+	    	System.out.println("ENTER NUM2 VALUE");
+	    	num2=sc.nextInt();
+	    	
+	    		
 	    	
 	    	if(num1>=0)
 	    	
@@ -148,7 +159,7 @@ public class Examples {
 	    	}
 	    	
 	    	
-	    	*/
+	    	
 	    	
 	    	
 	    	//===EX7===
@@ -165,6 +176,9 @@ public class Examples {
 	    	*/
 	    	
 	    	//===EX8===
+	    	
+	    	
+	    	
 	    	
 	    	
 	    	
