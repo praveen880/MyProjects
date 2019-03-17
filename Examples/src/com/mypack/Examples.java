@@ -118,7 +118,7 @@ public class Examples {
 	    	
 	    	// PRINTING  GIVEN NUMBER IS  +VE (OR) -VE 
 	    	
-	    	
+	    /*	
 	    	int num1, num2;
 		
 	     
@@ -159,7 +159,7 @@ public class Examples {
 	    	}
 	    	
 	    	
-	    	
+	    */	
 	    	
 	    	
 	    	//===EX7===
