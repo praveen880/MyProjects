@@ -177,21 +177,92 @@ public class Examples {
 	    	
 	    	//===EX8===
 	    	
+	    	// STUDENT DATA
+	 /*   	
+	    float mathes , statistics , computer, total, per;
+	    
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("Enter MARKS IN MATHES");
+	    mathes=sc.nextFloat();
+	    System.out.println("ENTER MARKS IN STATISTICS");
+	    statistics=sc.nextFloat();
+	    System.out.println("ENTER MARKS IN COMPUTER");
+	    computer=sc.nextFloat();
+	     float a= mathes;
+	     float b=statistics;
+	     float c=computer;
+	     
+	     total=(a+b+c);
+	     
+	    per=total/3;
+	    
+	    String grade;
+		if(per>70)
+	    
+	    	grade = "A";
+	    
+	    else if(per<70 && per>60)
+	    	
+	    	grade="B";
+		
+	    else if(per<60 && per>50)
+	    	
+	    	grade="C";
+		
+	    else
+	    	
+	    	grade ="D";
+		
+		String result;
+		if(a<35 || b<35 || c<35)
+		{
+			 result = "FAIL";
+		}
+		else
+		{
+			result ="PASS";
+		}
+			
+		System.out.println("TOTAL      " +total);
+		System.out.println("PERCENTAGE " +per);
+		System.out.println("GRADE      "+grade);
+	    System.out.println("RESULT     "+result);	
 	    	
 	    	
+	    */
 	    	
+	    //===EX8===	
 	    	
+	    // PERSON AGE STATUS           // CHILD  = BELOW 13
+	    	                           // TEEN   =13-19
+	    	                           // YOUNG  =20-30
+	    	                           // OLD    =30 ABOVE
 	    	
+	/*    	
+	    int age ;
+	    
+	    Scanner sc=new Scanner(System.in);
+	    System.out.println("ENTER YOUR AGE");
+	    age=sc.nextInt();
+	    
+	    if(age<13)
+	    {
+	    	System.out.println("YOU ARE IN CHILD AGE");
+	    }
+	    else if(age>13 && age<19)
+	    {
+	    	System.out.println("YOU ARE IN TEEN AGE");
+	    }
+	    else if(age>20 && age<30)
+	    {
+	    	System.out.println("YOU ARE IN YOUNG AGE");
+	    }
+	    else 
+	    {
+	    	System.out.println("YOU ARE IN OLD AGE");
+	    }
 	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
+	    */	
 	    	
 	    	
 	    	
