@@ -3,7 +3,7 @@
  "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
  "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
  <hibernate-mapping>
- <class name='Product'>
+ <class name='Product' >
  <id name='pid'></id>
  <property name='pname'></property>
  <property name='pcost'></property>
