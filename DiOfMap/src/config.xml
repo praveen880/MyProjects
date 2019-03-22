@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean id="id1" class="com.diMap.BeanMap">
+   <property name="products">
+   <map>
+   <entry key="501" value="Praveen"/>
+   <entry key="502" value="vinod"/>
+   <entry key="503" value="Hari"/>
+   <entry key="504" value="Vishnu"/>
+   <entry key="505" value="Suresh"/>
+   
+   </map>
+   
+   
+   
+   
+   
+   </property>
+    
+   </bean>
+     
+   
+   </beans>
