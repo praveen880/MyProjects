@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns = "http://www.springframework.org/schema/beans"
+   xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation = "http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <bean class="com.diObject2.Person" id="id1" >
+   <property name="pid" value="567686"/>
+   <property name="name" value="Praveen"/>
+   <property name="det" ref="d"/>
+   </bean>
+   <bean class="com.diObject2.Details" id="d">
+   <property name="adhaarno" value="211307772996"/>
+   <property name="address" value="Balayapalli"/>
+   <property name="married" value="No"/>
+   <property name="age" value="22"/>   
+   </bean>
+   
+   
+   </beans>
