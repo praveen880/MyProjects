@@ -11,7 +11,7 @@ import org.hibernate.cfg.Configuration;
 
 
 
-public class Test {
+public class InsertRecord {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
