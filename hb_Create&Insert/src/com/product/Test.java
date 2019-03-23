@@ -22,11 +22,14 @@ public class Test {
 		Session s=sf.openSession();
 		Transaction tx=s.beginTransaction();
 		Product p1=new Product();
-		p1.setPid(1002);
-		p1.setPname("Laptop");
-		p1.setPcost(45000);
+		p1.setPid(1004);
+		p1.setPname("Cooler");
+		p1.setPcost(25000);
 		s.save(p1);
 		System.out.println("Obect Saved Successfully");
+		System.out.println("pid ="+p1.getPid());
+		System.out.println("pcost ="+p1.getPname());
+		System.out.println("pcost ="+p1.getPcost());
 		tx.commit();
 		s.close();
 		sf.close();
